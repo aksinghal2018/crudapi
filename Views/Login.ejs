@@ -1,0 +1,14 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Login Page</h1>
+        <form method="post" action="/api/loginemployee">
+            <input type="text" name="name" placeholder="Enter name"/>
+            <input type="psddword" name="password" placeholder="Enter password"/>
+            <input type="hidden" name="csrf" value="1<%= csrf %>"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </body>
+</html>
